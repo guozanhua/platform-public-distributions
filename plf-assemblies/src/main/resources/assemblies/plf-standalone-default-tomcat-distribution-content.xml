@@ -336,6 +336,24 @@
       <outputFileNameMapping>social-portlet.war</outputFileNameMapping>
       <useProjectArtifact>false</useProjectArtifact>
     </dependencySet>
+		<dependencySet>
+      <outputDirectory>/webapps</outputDirectory>
+      <includes>
+        <include>org.exoplatform.social:social-webapp-juzu-portlet:war</include>
+      </includes>
+      <scope>provided</scope>
+      <outputFileNameMapping>social-juzu.war</outputFileNameMapping>
+      <useProjectArtifact>false</useProjectArtifact>
+    </dependencySet>
+		<dependencySet>
+      <outputDirectory>/webapps</outputDirectory>
+      <includes>
+        <include>org.exoplatform.social:social-notification-extension:war</include>
+      </includes>
+      <scope>provided</scope>
+      <outputFileNameMapping>social-notification-extension.war</outputFileNameMapping>
+      <useProjectArtifact>false</useProjectArtifact>
+    </dependencySet>
     <dependencySet>
       <outputDirectory>/webapps</outputDirectory>
       <includes>
@@ -610,6 +628,15 @@
       </includes>
       <scope>provided</scope>
       <outputFileNameMapping>homepage-portlets.war</outputFileNameMapping>
+      <useProjectArtifact>false</useProjectArtifact>
+    </dependencySet>
+    <dependencySet>
+      <outputDirectory>/webapps</outputDirectory>
+      <includes>
+        <include>org.exoplatform.platform:platform-extension-portlets-notification:war</include>
+      </includes>
+      <scope>provided</scope>
+      <outputFileNameMapping>platform-notification.war</outputFileNameMapping>
       <useProjectArtifact>false</useProjectArtifact>
     </dependencySet>
     <dependencySet>
